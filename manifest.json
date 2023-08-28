@@ -1,0 +1,17 @@
+{
+    "name": "Jogo da Velha PWA",
+    "short_name": "Jogo da Velha",
+    "description": "Um simples jogo da velha como PWA",
+    "start_url": "/",
+    "icons": [
+        {
+            "src": "images/ic_launcher.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        }
+    ],
+    "display": "standalone",
+    "background_color": "#ffffff",
+    "theme_color": "#2196F3"
+    
+}
