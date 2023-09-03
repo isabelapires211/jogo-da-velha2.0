@@ -4,10 +4,32 @@
     "description": "Um simples jogo da velha como PWA",
     "start_url": "/",
     "icons": [
+      
+        
         {
-            "src": "images/ic_launcher.png",
-            "sizes": "512x512",
+            "src": "img/icon.png",
+            "sizes": "256x256",
             "type": "image/png"
+           
+           
+            
+        },
+     
+        {
+            "src": "img/icon2.png",
+            "sizes": "512x512",
+            "type": "image/png",
+            "purpose": "any"
+           
+            
+        },
+        {
+            "src": "img/icon2.png",
+            "sizes": "512x512",
+            "type": "image/png",
+            "purpose": "maskable"
+           
+            
         }
     ],
     "display": "standalone",
