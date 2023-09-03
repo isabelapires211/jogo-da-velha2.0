@@ -1,11 +1,16 @@
 body {
     font-family: Arial, sans-serif;
     text-align: center;
-    background-image: url('/img/');
+    background-image: url('/img/fund.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-color: #000; 
 }
 
 h1 {
     font-size: 24px;
+    color: #FFF; 
 }
 
 .game-board {
@@ -25,32 +30,35 @@ h1 {
     justify-content: center;
     border: 2px solid #000;
     cursor: pointer;
+    background: linear-gradient(to bottom, #482b50, #5c0883);
+    box-shadow: 0 0 10px rgba(247, 0, 255, 0.5);
 }
 
 .cell.X {
-    color: #FF5733; /* Cor para o jogador X */
+    color: #FFD700;
 }
 
 .cell.O {
-    color: #33B6FF; /* Cor para o jogador O */
+    color: #00BFFF; 
 }
 
 #status {
     font-size: 20px;
     margin-top: 10px;
+    color: #000000; 
 }
 
 #reset {
     font-size: 16px;
     padding: 10px 20px;
     margin-top: 20px;
-    background-color: #2196F3;
-    color: #fff;
+    background-color: #8e21f3;
+    color: #ffffff;
     border: none;
     border-radius: 5px;
     cursor: pointer;
 }
 
 #reset:hover {
-    background-color: #0b7dda;
+    background-color: #980bda;
 }
